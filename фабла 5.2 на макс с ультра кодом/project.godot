@@ -1,0 +1,74 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="ЛЕЕР"
+config/description="Полярная станция «Тихая». В пургу сигналов не подавать."
+config/version="1.0.0"
+run/main_scene="res://src/main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://icon.png"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Leer"
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
+run/max_fps=0
+
+[autoload]
+
+Cfg="*res://src/autoload/cfg.gd"
+Snd="*res://src/autoload/snd.gd"
+G="*res://src/autoload/game.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/vsync/vsync_mode=1
+
+[gui]
+
+theme/default_font_antialiasing=1
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=1
+anti_aliasing/quality/msaa_3d=0
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=1
+textures/default_filters/anisotropic_filtering_level=1
+limits/cluster_builder/max_clustered_elements=128.0
+
+[shader_globals]
+
+g_wind={
+"type": "vec4",
+"value": Vector4(0.7071, 0.7071, 0.5, 0)
+}
+g_gust={
+"type": "float",
+"value": 0.0
+}
+g_lamp_pos={
+"type": "vec3",
+"value": Vector3(0, -1000, 0)
+}
+g_lamp_dir={
+"type": "vec3",
+"value": Vector3(0, 0, -1)
+}
+g_lamp_on={
+"type": "float",
+"value": 0.0
+}
+g_clear={
+"type": "float",
+"value": 0.0
+}
