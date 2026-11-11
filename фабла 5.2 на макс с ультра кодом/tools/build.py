@@ -1,4 +1,4 @@
-"""Полная сборка для Windows: импорт → экспорт Godot → папка без установки → установщик.
+r"""Полная сборка для Windows: импорт → экспорт Godot → папка без установки → установщик.
 
     python tools/build.py           → release/Leer_Setup.exe и release/Leer (играть без установки)
     python tools/build.py --assets  → сначала заново создать свои текстуры, звук и голоса
