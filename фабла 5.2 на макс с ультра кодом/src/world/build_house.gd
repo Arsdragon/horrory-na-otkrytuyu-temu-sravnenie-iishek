@@ -113,7 +113,8 @@ static func _main_room(w: World, root: Node3D, b: Batch) -> void:
 	# стол и стулья
 	Kit.put(root, "table", Vector3(0.78, FY, 0.9), 90.0, 0.72, true)
 	Kit.put(root, "chair", Vector3(-0.02, FY, 0.55), -90.0, 0.75, true)
-	Kit.put(root, "chairw", Vector3(1.56, FY, 1.3), 90.0, 1.0, true)
+	# второй стул — у северного торца стола: у восточной стороны он перекрывал дверь из тамбура
+	Kit.put(root, "chairw", Vector3(0.8, FY, -0.35), 0.0, 1.0, true)
 	var ty := FY + 0.695
 	var lant := Kit.put(root, "lantern", Vector3(0.62, ty, 0.3), 20.0, 1.0, false, false)
 	w.things["lantern"] = lant
