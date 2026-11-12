@@ -1,0 +1,48 @@
+ТРЕТИЙ ПАР — источники сторонних ассетов
+
+Текстуры — ambientCG (ambientcg.com) и Poly Haven (polyhaven.com), лицензия CC0:
+  brick_dark: Poly Haven dark_brick_wall
+  brick_red: Poly Haven red_brick
+  cloth: ambientCG Fabric032
+  coal: ambientCG Gravel024
+  concrete: Poly Haven concrete_floor_worn_001
+  concrete_dirty: Poly Haven dirty_concrete
+  facade: Poly Haven yellow_plaster
+  grate: Poly Haven metal_grate_rusty
+  linoleum: Poly Haven old_linoleum_flooring_01
+  logs: Poly Haven wood_trunk_wall
+  metal_green: Poly Haven green_metal_rust
+  paint_blue: ambientCG PaintedPlaster002
+  paint_green: ambientCG PaintedPlaster003
+  peeling: Poly Haven peeling_painted_wall
+  planks: Poly Haven old_planks_02
+  planks_dark: Poly Haven dark_wooden_planks
+  planks_weather: Poly Haven weathered_planks
+  plaster: Poly Haven worn_plaster_wall
+  plaster_dmg: Poly Haven damaged_plaster
+  rust: Poly Haven rusty_metal_02
+  rust_paint: Poly Haven rusty_painted_metal
+  snow: Poly Haven snow_02
+  terracotta: Poly Haven terracotta_floor_tiles
+  terry: Poly Haven terry_cloth
+  tile_broken: ambientCG Tiles133D
+  tile_dark: ambientCG Tiles140
+  tile_floor: Poly Haven square_tiles_02
+  tile_floor2: Poly Haven brown_floor_tiles
+  tile_green: ambientCG Tiles032
+  tile_pool: ambientCG Tiles133A
+  tile_wall: ambientCG Tiles141
+  wallpaper: Poly Haven decrepit_wallpaper
+
+Модели предметов — Poly Haven, CC0:
+  crowbar_01, pipe_wrench, vintage_flashlight, wooden_bucket_01, wooden_bucket_02, wooden_stool_01, wooden_stool_02, painted_wooden_bench, painted_wooden_cabinet, painted_wooden_chair_01, painted_wooden_table, BarberShopChair_01, CashRegister_01, wall_clock, metal_office_desk, metal_toolbox, rusted_spade_01, wooden_broom, rubber_boots, old_bed_frame, wooden_candlestick, vintage_oil_lamp, vintage_radio_transceiver, Television_01, hanging_industrial_lamp, power_box_01, metal_trash_can, wooden_crate_01, cardboard_box_01, rubber_duck_toy, pot_enamel_01, metal_jug, standing_picture_frame_01, wheelchair_01, vintage_suitcase, alarm_clock_01, clipboard, metal_stool_01, wooden_ladder, vintage_electric_kettle, metal_tool_chest, russian_food_cans_01, cigarette_pack, desk_lamp_arm_01, wicker_basket_01, WoodenTable_01, WoodenChair_01, wooden_crate_02, cement_bag, tea_set_01, painted_wooden_chair_02, cleaner_tin_01, painted_wooden_stool
+
+Люди и анимации — Microsoft Rocketbox (github.com/microsoft/Microsoft-Rocketbox), лицензия MIT:
+  Female_Adult_02 (основа Хозяйки, сильно изменена), Male_Adult_01, анимации f_walk_injured,
+  f_walk_bruised, f_walk_drunk, f_run_injured, f_idle_breathe_01, f_idle_look_around_01,
+  f_crouch_idle, f_crouch_in, m_sit_chair_idle_neutral_01.
+
+Шрифты — Google Fonts, SIL Open Font License 1.1:
+  PT Sans, PT Sans Narrow, PT Serif, PT Mono (ParaType), Marck Script, Neucha, Caveat, Ruslan Display, Oswald.
+
+Всё остальное (звук, голоса, таблички, записки, мозаика, волосы, здание) сделано для игры кодом.
